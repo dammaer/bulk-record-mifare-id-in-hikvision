@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Prepare the settings.ini file. Indicate in it the IP addresses of video intercom stations and the login and password for them.
+Prepare the **settings.ini** file. Indicate in it the IP addresses of video intercom stations and the login and password for them.
 
 * Adding new mifare_id or updating existing ones from a file
 <details>
