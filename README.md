@@ -40,7 +40,7 @@ Prepare the **settings.ini** file. Indicate in it the IP addresses of video inte
 </details>
 
 ```bash
-# Run the script with the -u add.txt and -n student1 keys. 
+# Run the script with the -u add.txt and -n student keys. 
 # This will update or create users named student1, student2, etc. and add 5 mifare cards to each.
 python record_mifare_id.py -u add.txt -n student
 ```
