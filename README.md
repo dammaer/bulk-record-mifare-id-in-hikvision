@@ -55,3 +55,4 @@ python record_mifare_id.py -a 85EF77B4 7290FDE1 -n student
 # This will remove all users with the name "student" and their mifare cards
 python record_mifare_id.py -c -n student
 ```
+### :warning: Note on mifare key hex
