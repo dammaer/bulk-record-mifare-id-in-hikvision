@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ## Usage
 Prepare the **settings.ini** file. Indicate in it the IP addresses of video intercom stations and the login and password for them.
 
-### Adding new mifare_id or updating existing ones from a file
+### :small_blue_diamond: Adding new mifare_id or updating existing ones from a file
 <details>
 <summary><b>Example file with mifare_id cards in hex format</b></summary>
 <img src="https://github.com/dammaer/bulk-record-mifare-id-in-hikvision/assets/75730199/baffb306-67bf-4125-a6c3-2ff6f4fe59ef"/>
@@ -44,13 +44,13 @@ Prepare the **settings.ini** file. Indicate in it the IP addresses of video inte
 # This will update or create users named student1, student2, etc. and add 5 mifare cards to each.
 python record_mifare_id.py -u add.txt -n student
 ```
-###  Adding new mifare_id as argument value
+### :small_blue_diamond: Adding new mifare_id as argument value
 ```bash
 # This will add new mifare cards to existing users called student 
 # or create a new user student if the remaining users are full
 python record_mifare_id.py -a 85EF77B4 7290FDE1 -n student
 ```
-### Removing all users and their mifare cards
+### :small_blue_diamond: Removing all users and their mifare cards
 ```bash
 # This will remove all users with the name "student" and their mifare cards
 python record_mifare_id.py -c -n student
