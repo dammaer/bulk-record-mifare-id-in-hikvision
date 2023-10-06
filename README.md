@@ -56,3 +56,4 @@ python record_mifare_id.py -a 85EF77B4 7290FDE1 -n student
 python record_mifare_id.py -c -n student
 ```
 ### :warning: Note on mifare key hex
+Some mifare card readers display the key value in reverse. For example, the NFC Tool (Android) application displays the 85EF77B4 key as 4B:77:FE:58 when read. This must be taken into account before use, otherwise mifare cards will not work!
