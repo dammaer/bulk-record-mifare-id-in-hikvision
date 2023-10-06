@@ -34,6 +34,7 @@ pip install -r requirements.txt
 Prepare the **settings.ini** file. Indicate in it the IP addresses of video intercom stations and the login and password for them.
 
 ### :small_blue_diamond: Adding new mifare_id or updating existing ones from a file
+
 <details>
 <summary><b>Example file with mifare_id cards in hex format</b></summary>
 <img src="https://github.com/dammaer/bulk-record-mifare-id-in-hikvision/assets/75730199/baffb306-67bf-4125-a6c3-2ff6f4fe59ef"/>
