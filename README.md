@@ -50,7 +50,7 @@ python record_mifare_id.py -u add.txt -n student
 # or create a new user student if the remaining users are full
 python record_mifare_id.py -a 85EF77B4 7290FDE1 -n student
 ```
-* Removing all users and their Mifare cards
+* Removing all users and their mifare cards
 ```bash
 # This will remove all users with the name "student" and their mifare cards
 python record_mifare_id.py -c -n student
