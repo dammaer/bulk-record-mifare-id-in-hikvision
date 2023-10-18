@@ -78,6 +78,7 @@ class Hikvision():
                             cards.append(
                                 (user['employeeNo'], free))
                     pos += 30
+                    time.sleep(0.5)
 
     def get_number_users(self):
         res_url = 'AccessControl/UserInfo/Count?format=json'
