@@ -1,5 +1,6 @@
 import datetime as dt
 import json
+import os
 import time
 
 import requests
@@ -261,7 +262,6 @@ class Hikvision():
 
 
 if __name__ == '__main__':
-    import os
     import sys
     from argparse import ArgumentParser
     from configparser import ConfigParser
@@ -293,7 +293,7 @@ if __name__ == '__main__':
             description='''Bulk record mifare_id in hikvision.''',
             epilog='''\033[36m(ノ ˘_˘)ノ\033[0m
                     https://github.com/dammaer/'''
-            )
+        )
         group = parser.add_mutually_exclusive_group()
         group.add_argument('-u', '--update_from_file',
                            help=('Set the file name and update exist '
